@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<stdlib.h>
+#include <stdlib.h>
 
 void input(int *p, int k) {
     int i;
@@ -10,10 +10,10 @@ void input(int *p, int k) {
 
 int fun(int *x, int *y, int n, int m) {
     int i, j, start;
-    for(start = 0; start <= n - m; start++) {
-        if(x[start] == y[0]) {
+    for(i = 0; i <= n - m; i++) {
+        if(x[i] == y[0]) {
             for(i = 1; i < m; i++) {
-                if(x[start + i] != y[i]) {
+                if(x[i + i] != y[i]) {
                     break;
                 }
             }
