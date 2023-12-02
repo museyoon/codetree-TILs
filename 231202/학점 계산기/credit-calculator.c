@@ -2,14 +2,14 @@
 
 int main() {
     int n;
-    float arr[10], sum = 0, avg;
+    double arr[10], sum = 0, avg;
     scanf("%d", &n);
     for(int i = 0;i < n;i++) {
-        scanf("%f", &arr[i]);
+        scanf("%lf", &arr[i]);
         sum += arr[i];
     }
     avg = sum / n;
-    printf("%.1f\n", avg);
+    printf("%.1lf\n", avg);
     if(avg >= 4.0) {
         printf("Perfect");
     }
